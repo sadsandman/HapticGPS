@@ -1517,7 +1517,7 @@
 		(uuid "28905338-c23c-40f4-9269-2d6f750fb897")
 	)
 	(junction
-		(at 190.5 66.04)
+		(at 196.85 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ff62686-318e-4d88-9221-84d8a4e77535")
@@ -1559,7 +1559,7 @@
 		(uuid "946d6496-7a4e-4334-86e1-db800a743033")
 	)
 	(junction
-		(at 180.34 66.04)
+		(at 186.69 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99f5225f-a02a-44ab-9431-ad5910618e1a")
@@ -1571,7 +1571,7 @@
 		(uuid "b96d2cc8-c3f9-4c8f-aa67-544af7787bb6")
 	)
 	(junction
-		(at 190.5 78.74)
+		(at 196.85 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd224047-6363-4ca1-8e60-eb3f921fb617")
@@ -1660,17 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 78.74) (xy 167.64 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1067cf6c-8fcf-4103-9c6d-4400e70ff5f7")
-	)
-	(wire
-		(pts
-			(xy 190.5 66.04) (xy 198.12 66.04)
+			(xy 196.85 66.04) (xy 204.47 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1770,7 +1760,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 66.04) (xy 190.5 68.58)
+			(xy 196.85 66.04) (xy 196.85 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1950,6 +1940,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 78.74) (xy 196.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ecc4f8-f41e-495f-9d26-2accd9de227f")
+	)
+	(wire
+		(pts
 			(xy 96.52 134.62) (xy 102.87 134.62)
 		)
 		(stroke
@@ -2060,6 +2060,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 66.04) (xy 186.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89746799-05ff-4568-83ca-72ba6b10784d")
+	)
+	(wire
+		(pts
 			(xy 115.57 68.58) (xy 127 68.58)
 		)
 		(stroke
@@ -2150,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 76.2) (xy 172.72 76.2)
+			(xy 167.64 76.2) (xy 179.07 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2170,7 +2180,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 76.2) (xy 190.5 78.74)
+			(xy 196.85 76.2) (xy 196.85 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2220,7 +2230,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 66.04) (xy 190.5 66.04)
+			(xy 186.69 66.04) (xy 196.85 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2250,7 +2260,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 66.04) (xy 180.34 76.2)
+			(xy 186.69 66.04) (xy 186.69 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2287,16 +2297,6 @@
 			(type default)
 		)
 		(uuid "dc91d53b-e424-4cd1-81fd-aa03e28e49fa")
-	)
-	(wire
-		(pts
-			(xy 167.64 66.04) (xy 180.34 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd3a5485-1d5f-4ce5-956e-c91eb8423a0f")
 	)
 	(wire
 		(pts
@@ -2407,6 +2407,16 @@
 			(type default)
 		)
 		(uuid "fff93d85-2e89-42ee-9215-beb835e21a1f")
+	)
+	(label "SW1_NPM"
+		(at 167.64 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "016088ed-db3e-41c0-9440-3eefac43924a")
 	)
 	(label "CC2"
 		(at 115.57 44.45 0)
@@ -2685,7 +2695,7 @@
 	)
 	(hierarchical_label "BUCK1"
 		(shape output)
-		(at 198.12 66.04 0)
+		(at 204.47 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3487,7 +3497,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 176.53 76.2 90)
+		(at 182.88 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3495,7 +3505,7 @@
 		(dnp no)
 		(uuid "71593313-8a41-4a64-8c6a-032128bfbdc9")
 		(property "Reference" "L1"
-			(at 176.53 77.47 90)
+			(at 182.88 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +3513,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 176.784 74.168 90)
+			(at 183.134 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,7 +3521,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
-			(at 176.53 76.2 0)
+			(at 182.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +3530,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2542/CIGT252008LM2R2MNE_Spec.pdf"
-			(at 176.53 76.2 0)
+			(at 182.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3539,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 2.2UH 2A 97 MOHM SMD"
-			(at 176.53 76.2 0)
+			(at 182.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3548,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 176.53 76.2 90)
+			(at 182.88 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3557,7 @@
 			)
 		)
 		(property "Number Part" "CIGT252008LM2R2MNE"
-			(at 176.53 76.2 90)
+			(at 182.88 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3566,7 @@
 			)
 		)
 		(property "Provider" "Digikey"
-			(at 176.53 76.2 90)
+			(at 182.88 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3575,7 @@
 			)
 		)
 		(property "Revisado" "REV"
-			(at 176.53 71.882 90)
+			(at 182.88 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3583,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 176.53 76.2 0)
+			(at 182.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,7 +4079,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 78.74 0)
+		(at 196.85 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4078,7 +4088,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e649d09-41d8-409e-858a-ebbaa89226de")
 		(property "Reference" "#PWR07"
-			(at 190.5 85.09 0)
+			(at 196.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4097,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 83.82 0)
+			(at 196.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 78.74 0)
+			(at 196.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 78.74 0)
+			(at 196.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4123,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 78.74 0)
+			(at 196.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +4394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 102.5652 49.53 0)
 			(effects
 				(font
@@ -4393,7 +4403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71E225ME43-01.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf"
 			(at 101.6 45.72 0)
 			(effects
 				(font
@@ -4402,7 +4412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 2.2UF 25V X7R 0603"
+		(property "Description" "CAP CER 2.2UF 10V X7R 0402"
 			(at 101.6 45.72 0)
 			(effects
 				(font
@@ -4420,7 +4430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Number Part" "GRM188Z71E225ME43D"
+		(property "Number Part" "GRM155Z71A225KE44D"
 			(at 101.6 45.72 0)
 			(effects
 				(font
@@ -4446,8 +4456,8 @@
 				)
 			)
 		)
-		(property "Voltage" "25VDC"
-			(at 108.458 49.276 0)
+		(property "Voltage" "10V"
+			(at 107.442 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +4951,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190.5 72.39 0)
+		(at 196.85 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4949,7 +4959,7 @@
 		(dnp no)
 		(uuid "e5892ec9-acfe-487e-bf91-db957bd77a4a")
 		(property "Reference" "C1"
-			(at 194.31 71.1199 0)
+			(at 200.66 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +4968,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 194.31 73.6599 0)
+			(at 200.66 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +4977,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 191.4652 76.2 0)
+			(at 197.8152 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +4986,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106KA73-01A.pdf"
-			(at 190.5 72.39 0)
+			(at 196.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +4995,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 10V X7R 0603"
-			(at 190.5 72.39 0)
+			(at 196.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +5004,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 190.5 72.39 0)
+			(at 196.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +5013,7 @@
 			)
 		)
 		(property "Number Part" "GRM188Z71A106KA73D"
-			(at 190.5 72.39 0)
+			(at 196.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +5022,7 @@
 			)
 		)
 		(property "Provider" "Digikey"
-			(at 190.5 72.39 0)
+			(at 196.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +5031,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 196.088 75.946 0)
+			(at 202.438 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +5039,7 @@
 			)
 		)
 		(property "Revisado" "REV"
-			(at 196.088 78.232 0)
+			(at 202.438 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3777,7 +3777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 211.7852 36.83 0)
 			(effects
 				(font
@@ -3786,7 +3786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
 			(at 210.82 33.02 0)
 			(effects
 				(font
@@ -3795,7 +3795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X7R 0603"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 210.82 33.02 0)
 			(effects
 				(font
@@ -3804,7 +3804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata Electronics"
 			(at 210.82 33.02 0)
 			(effects
 				(font
@@ -3813,7 +3813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Number Part" "C0603C104K3RACTU"
+		(property "Number Part" "GCM155R71H104KE02J"
 			(at 210.82 33.02 0)
 			(effects
 				(font
@@ -3865,15 +3865,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 267.97 33.02 0)
+		(at 226.06 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "125d3935-362a-49c1-bb63-9b43ef556741")
-		(property "Reference" "C12"
-			(at 271.78 31.7499 0)
+		(uuid "077fd03c-c715-4a4f-a852-a01abe0f0bea")
+		(property "Reference" "C9"
+			(at 229.87 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3882,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 271.78 34.2899 0)
+			(at 229.87 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,8 +3890,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 268.9352 36.83 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 227.0252 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,8 +3899,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 267.97 33.02 0)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,8 +3908,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X7R 0603"
-			(at 267.97 33.02 0)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,8 +3917,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 267.97 33.02 0)
+		(property "Manufacturer" "Murata Electronics"
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,8 +3926,8 @@
 				(hide yes)
 			)
 		)
-		(property "Number Part" "C0603C104K3RACTU"
-			(at 267.97 33.02 0)
+		(property "Number Part" "GCM155R71H104KE02J"
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3936,7 @@
 			)
 		)
 		(property "Provider" "Digikey"
-			(at 267.97 33.02 0)
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3945,7 @@
 			)
 		)
 		(property "Revisado" "REV"
-			(at 273.812 36.83 0)
+			(at 231.902 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3953,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 267.97 33.02 0)
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,15 +3962,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "59cebbeb-50d1-464f-97f1-d0a1614dd5fa")
+			(uuid "7fa92569-ef97-4715-b3eb-12191e7b4caa")
 		)
 		(pin "1"
-			(uuid "13a75486-da60-42f2-af77-8d92fa10f778")
+			(uuid "e2844080-e1f8-4580-b5bc-ba80ed9a33a3")
 		)
 		(instances
 			(project "HapticGPS"
 				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/ab80b936-62de-47fb-8cc4-c87d33ea8e63"
-					(reference "C12")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4261,6 +4261,119 @@
 			(project "HapticGPS"
 				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/ab80b936-62de-47fb-8cc4-c87d33ea8e63"
 					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 254 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24c841b3-641e-464b-90a0-ef287615c468")
+		(property "Reference" "C11"
+			(at 257.81 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 257.81 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 254.9652 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 254 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
+			(at 254 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 254 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Part" "GCM155R71H104KE02J"
+			(at 254 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Digikey"
+			(at 254 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revisado" "REV"
+			(at 259.842 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 254 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ab56cc8-dc3a-482b-bc27-847e2635a66a")
+		)
+		(pin "1"
+			(uuid "a04c977f-2a86-4398-be32-e7e084614abe")
+		)
+		(instances
+			(project "HapticGPS"
+				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/ab80b936-62de-47fb-8cc4-c87d33ea8e63"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4621,119 +4734,6 @@
 			(project "HapticGPS"
 				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/ab80b936-62de-47fb-8cc4-c87d33ea8e63"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 240.03 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46645e80-84aa-405b-af3c-30e9731e8738")
-		(property "Reference" "C10"
-			(at 243.84 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 243.84 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 240.9952 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 240.03 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X7R 0603"
-			(at 240.03 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 240.03 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Number Part" "C0603C104K3RACTU"
-			(at 240.03 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Provider" "Digikey"
-			(at 240.03 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revisado" "REV"
-			(at 245.872 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 240.03 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "745bab9a-68b5-46a2-aab0-113536718134")
-		)
-		(pin "1"
-			(uuid "1178e2a2-3b20-4a77-a031-ec5dcda60d31")
-		)
-		(instances
-			(project "HapticGPS"
-				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/ab80b936-62de-47fb-8cc4-c87d33ea8e63"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5455,6 +5455,119 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 240.03 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cc3fd38-56c8-444d-9e88-0e693db9dfff")
+		(property "Reference" "C10"
+			(at 243.84 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 243.84 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 240.9952 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Part" "GCM155R71H104KE02J"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Digikey"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revisado" "REV"
+			(at 245.872 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a02837ab-b335-42f0-8c49-0886fc2c3d90")
+		)
+		(pin "1"
+			(uuid "ebed4677-2248-4edf-b9be-b81fd63a24a4")
+		)
+		(instances
+			(project "HapticGPS"
+				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/ab80b936-62de-47fb-8cc4-c87d33ea8e63"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 261.62 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5674,6 +5787,119 @@
 			(project "HapticGPS"
 				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/ab80b936-62de-47fb-8cc4-c87d33ea8e63"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 267.97 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75578c01-a5ca-4d57-9d75-49489875160d")
+		(property "Reference" "C12"
+			(at 271.78 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 271.78 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 268.9352 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 267.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
+			(at 267.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 267.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Part" "GCM155R71H104KE02J"
+			(at 267.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Digikey"
+			(at 267.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revisado" "REV"
+			(at 273.812 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 267.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ec2058a-0694-4140-8f95-ae89971b9ca8")
+		)
+		(pin "1"
+			(uuid "d6a7ceb4-bf23-4c12-a15e-5975993bfd93")
+		)
+		(instances
+			(project "HapticGPS"
+				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/ab80b936-62de-47fb-8cc4-c87d33ea8e63"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6641,119 +6867,6 @@
 			(project "HapticGPS"
 				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/ab80b936-62de-47fb-8cc4-c87d33ea8e63"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 226.06 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b76cf81d-c184-4980-92a1-16571d7a0190")
-		(property "Reference" "C9"
-			(at 229.87 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 229.87 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 227.0252 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X7R 0603"
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Number Part" "C0603C104K3RACTU"
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Provider" "Digikey"
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revisado" "REV"
-			(at 231.902 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "09741d40-08a8-4c7f-9ce6-7289be2fdc2b")
-		)
-		(pin "1"
-			(uuid "a01e2e4d-883a-4948-ba83-bf3ccfa15c65")
-		)
-		(instances
-			(project "HapticGPS"
-				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/ab80b936-62de-47fb-8cc4-c87d33ea8e63"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8157,119 +8270,6 @@
 			(project "HapticGPS"
 				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/ab80b936-62de-47fb-8cc4-c87d33ea8e63"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 254 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2f4ccb6-23dd-46d9-b512-55559a6a0c52")
-		(property "Reference" "C11"
-			(at 257.81 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 257.81 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 254.9652 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 254 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X7R 0603"
-			(at 254 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 254 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Number Part" "C0603C104K3RACTU"
-			(at 254 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Provider" "Digikey"
-			(at 254 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revisado" "REV"
-			(at 259.842 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 254 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0d3151bc-4552-4f39-bf72-e12e7a05b29c")
-		)
-		(pin "1"
-			(uuid "e533467d-be71-45f2-ba45-7294afa14694")
-		)
-		(instances
-			(project "HapticGPS"
-				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/ab80b936-62de-47fb-8cc4-c87d33ea8e63"
-					(reference "C11")
 					(unit 1)
 				)
 			)

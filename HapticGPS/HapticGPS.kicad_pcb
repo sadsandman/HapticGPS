@@ -15702,14 +15702,14 @@
 		(at 136.445 118.325 -90)
 		(descr "2012/2, Crystal, 2.0x1.2mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://txccrystal.com/images/pdf/9ht11.pdf")
 		(property "Reference" "Y2"
-			(at 1.886982 0.120369 180)
+			(at 1.886982 0.120369 0)
 			(layer "F.SilkS")
 			(uuid "4af119b4-e44f-482d-835d-73b53f54cc41")
 			(effects
 				(font
 					(face "STIX Two Math")
 					(size 0.7 0.7)
-					(thickness 0.7)
+					(thickness 0.175)
 				)
 			)
 			(render_cache "Y2" 0
@@ -15761,7 +15761,7 @@
 				(font
 					(face "STIX Two Math")
 					(size 0.7 0.7)
-					(thickness 0.7)
+					(thickness 0.175)
 				)
 			)
 			(render_cache "32.768kHz" 90
@@ -16205,7 +16205,7 @@
 			(uuid "040b6abd-98c3-441f-ab9b-f964e428f95d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2012-2Pin_2.0x1.2mm.step"
+		(model "${PERSONAL_3D}/ABS06-32.768KHZ-1-T.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16213,7 +16213,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -24207,7 +24207,7 @@
 				(font
 					(face "STIX Two Math")
 					(size 0.7 0.7)
-					(thickness 0.7)
+					(thickness 0.175)
 				)
 			)
 			(render_cache "Y1" 0
@@ -24251,7 +24251,7 @@
 				(font
 					(face "STIX Two Math")
 					(size 0.7 0.7)
-					(thickness 0.7)
+					(thickness 0.175)
 				)
 			)
 			(render_cache "32MHz" 90
@@ -24599,7 +24599,7 @@
 			(uuid "bc9ef1a5-b192-4c2e-a512-17ff22b78b36")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.step"
+		(model "${PERSONAL_3D}/XRCGB32M000F2P00R0.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24607,7 +24607,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)

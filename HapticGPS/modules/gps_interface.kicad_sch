@@ -16,25 +16,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "AE"
-				(at -1.905 1.905 0)
+			(property "Reference" "AE2"
+				(at 2.54 0.6351 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
-			(property "Value" "Antenna"
-				(at -1.905 0 0)
+			(property "Value" "ANT-GNCP"
+				(at 2.54 -1.9049 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Sadman_antenna:NT-GNCP-TH258L15"
 				(at 0 0 0)
 				(effects
 					(font
@@ -43,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.digikey.es/es/products/detail/te-connectivity-linx/ant-gncp-th258l15/13627260#:~:text=base-,ANT%2DGNCP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,7 +52,51 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Antenna"
+			(property "Description" "RF ANT GNSS PATCH L1 L5 25MM PIN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TE Connectivity Linx"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Number Part" "ANT-GNCP-TH258L15"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Provider" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Revisado" "REV"
+				(at 4.572 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -97,6 +141,24 @@
 				)
 			)
 			(symbol "Antenna_1_1"
+				(pin input line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 0 -5.08 90)
 					(length 2.54)
@@ -2038,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 74.93) (xy 250.19 71.12)
+			(xy 250.19 74.93) (xy 250.19 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2378,6 +2440,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 63.5) (xy 241.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8ab108-e172-48e8-a8cd-c48712e1764a")
+	)
+	(wire
+		(pts
 			(xy 198.12 74.93) (xy 204.47 74.93)
 		)
 		(stroke
@@ -2585,6 +2657,16 @@
 			(type default)
 		)
 		(uuid "e80be1e4-dd61-4339-9872-ff0ffc02f3bf")
+	)
+	(wire
+		(pts
+			(xy 241.3 63.5) (xy 241.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1badf86-26e7-4d13-8855-0a431e4b973b")
 	)
 	(wire
 		(pts
@@ -4279,8 +4361,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 241.3 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74241e64-ecfc-43e4-94ef-9f44ffc1ff1f")
+		(property "Reference" "#PWR04"
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2892e6a3-5def-4d84-8acf-34c29619762e")
+		)
+		(instances
+			(project "HapticGPS"
+				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/4cb5cc37-6dd4-4cc6-8dfa-25cbabfac881"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Antenna")
-		(at 250.19 66.04 0)
+		(at 250.19 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4288,7 +4436,7 @@
 		(dnp no)
 		(uuid "78d4451b-e6dd-430b-ad44-e20865c8b0ca")
 		(property "Reference" "AE2"
-			(at 252.73 65.4049 0)
+			(at 252.73 60.3249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4445,7 @@
 			)
 		)
 		(property "Value" "ANT-GNCP"
-			(at 252.73 67.9449 0)
+			(at 252.73 62.8649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +4454,7 @@
 			)
 		)
 		(property "Footprint" "Sadman_antenna:NT-GNCP-TH258L15"
-			(at 250.19 66.04 0)
+			(at 250.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +4463,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.es/es/products/detail/te-connectivity-linx/ant-gncp-th258l15/13627260#:~:text=base-,ANT%2DGNCP"
-			(at 250.19 66.04 0)
+			(at 250.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4472,7 @@
 			)
 		)
 		(property "Description" "RF ANT GNSS PATCH L1 L5 25MM PIN"
-			(at 250.19 66.04 0)
+			(at 250.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4481,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity Linx"
-			(at 250.19 66.04 0)
+			(at 250.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +4490,7 @@
 			)
 		)
 		(property "Number Part" "ANT-GNCP-TH258L15"
-			(at 250.19 66.04 0)
+			(at 250.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4499,7 @@
 			)
 		)
 		(property "Provider" "Digikey"
-			(at 250.19 66.04 0)
+			(at 250.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4508,7 @@
 			)
 		)
 		(property "Revisado" "REV"
-			(at 254.762 70.358 0)
+			(at 254.762 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4516,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 250.19 66.04 0)
+			(at 250.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,6 +4526,9 @@
 		)
 		(pin "1"
 			(uuid "75102d8d-5fd9-4bd3-b3fe-95c73d544fbb")
+		)
+		(pin "2"
+			(uuid "370cf7d1-dff3-448c-a1b3-7cfec2239bd9")
 		)
 		(instances
 			(project ""

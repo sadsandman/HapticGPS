@@ -711,12 +711,6 @@
 		)
 	)
 	(junction
-		(at 179.07 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ddff3f9-6b64-4ad4-ae6b-042fca576b7c")
-	)
-	(junction
 		(at 146.05 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -743,6 +737,10 @@
 	(no_connect
 		(at 140.97 90.17)
 		(uuid "4116aadf-f570-4e64-8919-11fb17de0e3c")
+	)
+	(no_connect
+		(at 171.45 92.71)
+		(uuid "9492ee41-ec4c-475c-938f-b64b1e4432bf")
 	)
 	(no_connect
 		(at 140.97 95.25)
@@ -834,16 +832,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 92.71) (xy 182.88 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fc399de-ec43-4d7f-accd-fb4599451aea")
-	)
-	(wire
-		(pts
 			(xy 196.85 90.17) (xy 199.39 90.17)
 		)
 		(stroke
@@ -901,16 +889,6 @@
 			(type default)
 		)
 		(uuid "c2226591-5f19-4925-9855-cb1a69291ff9")
-	)
-	(wire
-		(pts
-			(xy 171.45 92.71) (xy 179.07 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8557940-961c-42e9-ad41-07b100b8d4de")
 	)
 	(wire
 		(pts
@@ -1017,17 +995,6 @@
 		)
 		(uuid "3bb26607-529c-4eae-b840-18afb9844a31")
 	)
-	(hierarchical_label "INT2_IMU"
-		(shape output)
-		(at 182.88 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4cf1043e-b1f1-4fb7-8b33-41c561ec9dc0")
-	)
 	(hierarchical_label "VIN_IMU"
 		(shape input)
 		(at 135.89 67.31 180)
@@ -1038,117 +1005,6 @@
 			(justify right)
 		)
 		(uuid "75a76312-6273-4ca8-8953-6fe02ee9f1c2")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fa98094-e44a-4e3c-a352-2edb32fa3581")
-		(property "Reference" "R13"
-			(at 115.57 98.044 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1"
-			(at 115.57 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 115.57 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
-			(at 115.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 1 OHM 1% 1/2W 0805"
-			(at 115.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 115.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Number Part" "ERJ-6DQF1R0V"
-			(at 115.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Provider" "Digikey"
-			(at 115.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revisado" "REV"
-			(at 115.316 102.616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 115.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b9dbb6c0-ff1e-4a57-9d37-a2591f9c9d14")
-		)
-		(pin "1"
-			(uuid "ae155c8b-97d8-4cb9-9a6d-a18ff57ced65")
-		)
-		(instances
-			(project "HapticGPS"
-				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/2f5f0a98-19c6-465f-973c-34dd311f4f90"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Sensor_Motion:LSM6DS3")
@@ -1250,6 +1106,15 @@
 				(hide yes)
 			)
 		)
+		(property "STANDARD" ""
+			(at 156.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "2723956a-29ea-4675-94fa-fed13ee6881e")
 		)
@@ -1302,13 +1167,135 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 115.57 116.84 90)
+		(lib_id "Device:C")
+		(at 166.37 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(uuid "32d9dc6f-cf18-412c-8fa5-6b031f6408a0")
+		(property "Reference" "C39"
+			(at 170.18 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 170.18 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 167.3352 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Part" "GCM155R71H104KE02J"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Digikey"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revisado" "REV"
+			(at 172.212 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ec5036f-ed19-406e-8dd0-25a5fe981bea")
+		)
+		(pin "1"
+			(uuid "09ee2730-cfe3-4c8d-a736-b734b1cfa53f")
+		)
+		(instances
+			(project "HapticGPS"
+				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/2f5f0a98-19c6-465f-973c-34dd311f4f90"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
 		(uuid "3f62fe8c-d4b0-4294-a8ae-2cc6e24fed7d")
 		(property "Reference" "R19"
 			(at 115.57 109.474 90)
@@ -1326,7 +1313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.57 118.618 90)
 			(effects
 				(font
@@ -1390,6 +1377,15 @@
 		)
 		(property "Voltage" ""
 			(at 115.57 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 115.57 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,8 +1482,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "643f4559-8767-4381-af70-0b5af3bcf4f6")
-		(property "Reference" "C47"
+		(uuid "506deaae-a194-4e52-908e-aca458466b6f")
+		(property "Reference" "C38"
 			(at 149.86 71.1199 0)
 			(effects
 				(font
@@ -1505,7 +1501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 147.0152 76.2 0)
 			(effects
 				(font
@@ -1514,7 +1510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
 			(at 146.05 72.39 0)
 			(effects
 				(font
@@ -1523,7 +1519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X7R 0603"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 146.05 72.39 0)
 			(effects
 				(font
@@ -1532,7 +1528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata Electronics"
 			(at 146.05 72.39 0)
 			(effects
 				(font
@@ -1541,7 +1537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Number Part" "C0603C104K3RACTU"
+		(property "Number Part" "GCM155R71H104KE02J"
 			(at 146.05 72.39 0)
 			(effects
 				(font
@@ -1576,16 +1572,25 @@
 				(hide yes)
 			)
 		)
+		(property "STANDARD" ""
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "ee43223d-a98f-4df5-b578-b47767e7449f")
+			(uuid "17e354bd-fb1a-410b-af90-45f30b7840b2")
 		)
 		(pin "1"
-			(uuid "6cee49dd-7e97-4479-b144-331fdcb3dd57")
+			(uuid "7a8fb0f4-17f9-40dc-9638-39070f69b2ba")
 		)
 		(instances
 			(project "HapticGPS"
 				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/2f5f0a98-19c6-465f-973c-34dd311f4f90"
-					(reference "C47")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -1741,7 +1746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "10k"
 			(at 199.39 95.2499 0)
 			(effects
 				(font
@@ -1750,7 +1755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.072 93.98 90)
 			(effects
 				(font
@@ -1759,7 +1764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 196.85 93.98 0)
 			(effects
 				(font
@@ -1768,7 +1773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
 			(at 196.85 93.98 0)
 			(effects
 				(font
@@ -1786,7 +1791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Number Part" "CRGCQ0603F2K2"
+		(property "Number Part" "RC0402FR-0710KL"
 			(at 196.85 93.98 0)
 			(effects
 				(font
@@ -1813,6 +1818,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 196.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 196.85 93.98 0)
 			(effects
 				(font
@@ -1903,43 +1917,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 166.37 72.39 0)
+		(lib_id "Device:R")
+		(at 115.57 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
-		(uuid "dbc4fb1c-61c7-4a3f-a131-85b925bc4a5d")
-		(property "Reference" "C48"
-			(at 170.18 71.1199 0)
+		(dnp yes)
+		(uuid "d673246f-77b5-4cee-84df-816d4cf0620e")
+		(property "Reference" "R7"
+			(at 115.57 98.044 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 170.18 73.6599 0)
+		(property "Value" "1"
+			(at 115.57 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 167.3352 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 166.37 72.39 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,8 +1950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X7R 0603"
-			(at 166.37 72.39 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
+			(at 115.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,8 +1959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 166.37 72.39 0)
+		(property "Description" "RES 1 OHM 1% 1/2W 0805"
+			(at 115.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,8 +1968,17 @@
 				(hide yes)
 			)
 		)
-		(property "Number Part" "C0603C104K3RACTU"
-			(at 166.37 72.39 0)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Part" "ERJ-6DQF1R0V"
+			(at 115.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +1987,7 @@
 			)
 		)
 		(property "Provider" "Digikey"
-			(at 166.37 72.39 0)
+			(at 115.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +1996,7 @@
 			)
 		)
 		(property "Revisado" "REV"
-			(at 172.212 76.2 0)
+			(at 115.316 102.616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +2004,16 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 166.37 72.39 0)
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 115.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,81 +2022,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "73057b34-598b-49c7-b8d3-517ff4395ac6")
+			(uuid "1af7e16f-794b-4430-9388-dcb80ecf8ced")
 		)
 		(pin "1"
-			(uuid "9e776f0f-49cb-4e4b-98d4-ad8fd2de04d1")
+			(uuid "ec54fc0b-c6cf-4626-b1d6-fb77c0a3ec3b")
 		)
 		(instances
 			(project "HapticGPS"
 				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/2f5f0a98-19c6-465f-973c-34dd311f4f90"
-					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 179.07 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5840381-d48d-49c1-9cda-7c351f4aef70")
-		(property "Reference" "#PWR087"
-			(at 179.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f74fd677-b60d-4c12-a2ed-03e556124ff6")
-		)
-		(instances
-			(project "HapticGPS"
-				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/2f5f0a98-19c6-465f-973c-34dd311f4f90"
-					(reference "#PWR087")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2142,119 +2097,6 @@
 			(project "HapticGPS"
 				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/2f5f0a98-19c6-465f-973c-34dd311f4f90"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 179.07 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee949374-7049-43b4-959e-3483fe72ab62")
-		(property "Reference" "R20"
-			(at 181.61 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 181.61 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 177.292 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
-			(at 179.07 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 179.07 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity Passive Product"
-			(at 179.07 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Number Part" "CRGCQ0603F2K2"
-			(at 179.07 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Provider" "Digikey"
-			(at 179.07 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revisado" "REV"
-			(at 183.388 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 179.07 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec4683a7-dbf9-4a44-8acb-39eb7038b9c9")
-		)
-		(pin "2"
-			(uuid "c25c1b38-1e26-43da-86c9-73477f8e0772")
-		)
-		(instances
-			(project "HapticGPS"
-				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/2f5f0a98-19c6-465f-973c-34dd311f4f90"
-					(reference "R20")
 					(unit 1)
 				)
 			)

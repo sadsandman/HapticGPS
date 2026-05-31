@@ -1286,23 +1286,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 138.43) (xy 139.7 139.7)
+			(xy 139.7 146.05) (xy 139.7 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05e6120b-f27d-4103-9037-26ce4733936d")
-	)
-	(wire
-		(pts
-			(xy 62.23 90.17) (xy 67.31 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0948c515-1160-4c66-8040-9247a39b0356")
+		(uuid "09702aa4-8b1f-461c-a2bb-ef0f749c269d")
 	)
 	(wire
 		(pts
@@ -1466,16 +1456,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 147.32) (xy 139.7 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bc3174c-6786-4ce0-97b7-bf517617ab7c")
-	)
-	(wire
-		(pts
 			(xy 148.59 74.93) (xy 151.13 74.93)
 		)
 		(stroke
@@ -1626,6 +1606,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 146.05) (xy 160.02 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd97bfc-11fb-4888-aff4-aa0f0663dd74")
+	)
+	(wire
+		(pts
 			(xy 166.37 102.87) (xy 168.91 102.87)
 		)
 		(stroke
@@ -1643,16 +1633,6 @@
 			(type default)
 		)
 		(uuid "83abd7e8-621b-4db1-b737-9ed3c57f94be")
-	)
-	(wire
-		(pts
-			(xy 160.02 147.32) (xy 160.02 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "869862b3-8574-4f4e-965a-fb56cea5acaf")
 	)
 	(wire
 		(pts
@@ -1713,16 +1693,6 @@
 			(type default)
 		)
 		(uuid "9e35ba80-38c4-4ec0-9edd-02b12e2fd026")
-	)
-	(wire
-		(pts
-			(xy 160.02 138.43) (xy 160.02 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f6e64a1-5daf-49e4-848a-03f21cd7005c")
 	)
 	(wire
 		(pts
@@ -1796,7 +1766,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 90.17) (xy 54.61 90.17)
+			(xy 49.53 90.17) (xy 67.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2267,6 +2237,15 @@
 				(hide yes)
 			)
 		)
+		(property "STANDARD" ""
+			(at 179.07 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c5ff0c9-f7a8-4fb5-9e93-c41e387e4622")
 		)
@@ -2317,7 +2296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://5753554.fs1.hubspotusercontent-na1.net/hubfs/5753554/BOS1921/BT015BDS01.01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6662/2158_BOS19_Datasheet.pdf"
 			(at 180.34 283.82 0)
 			(effects
 				(font
@@ -2327,7 +2306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Actuator PMIC 24-QFN (4x4)"
+		(property "Description" "IC MTR DRV PIEZO 3V-5.5V 24VFQFN"
 			(at 121.92 108.712 0)
 			(effects
 				(font
@@ -2336,7 +2315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Boreas Technologies"
 			(at 148.59 99.06 0)
 			(effects
 				(font
@@ -2345,7 +2324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Number Part" ""
+		(property "Number Part" "BOS1921CQR"
 			(at 148.59 99.06 0)
 			(effects
 				(font
@@ -2354,7 +2333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Provider" ""
+		(property "Provider" "Digikey"
 			(at 148.59 99.06 0)
 			(effects
 				(font
@@ -2372,6 +2351,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 148.59 99.06 0)
 			(effects
 				(font
@@ -2459,119 +2447,6 @@
 			(project ""
 				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/a0957f3f-851e-4cb9-882e-1a60d2c72d50"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 139.7 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f09ddfb-dcc4-4217-a7d2-88f0b6f6fd00")
-		(property "Reference" "C18"
-			(at 143.51 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 143.51 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 140.6652 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 139.7 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X7R 0603"
-			(at 139.7 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 139.7 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Number Part" "C0603C104K3RACTU"
-			(at 139.7 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Provider" "Digikey"
-			(at 139.7 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revisado" "REV"
-			(at 145.542 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 139.7 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee4d2edf-b3c0-41c6-a5de-5a8a0cdc1d80")
-		)
-		(pin "1"
-			(uuid "a4e44a23-2a8e-4ad6-875d-32922b48200f")
-		)
-		(instances
-			(project "HapticGPS"
-				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/a0957f3f-851e-4cb9-882e-1a60d2c72d50"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2675,6 +2550,15 @@
 				(hide yes)
 			)
 		)
+		(property "STANDARD" ""
+			(at 121.92 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d0f9d29a-be6d-4fef-8d06-e9ba2ebace3b")
 		)
@@ -2685,6 +2569,128 @@
 			(project "HapticGPS"
 				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/a0957f3f-851e-4cb9-882e-1a60d2c72d50"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ae7b67a-0138-41ca-b126-d4d32cbfaec9")
+		(property "Reference" "C28"
+			(at 163.83 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 163.83 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 160.9852 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 160.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
+			(at 160.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 160.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Part" "GCM155R71H104KE02J"
+			(at 160.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Digikey"
+			(at 160.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revisado" "REV"
+			(at 165.862 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 160.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 160.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4bbb807-8587-45bf-a438-9913b036a6f8")
+		)
+		(pin "1"
+			(uuid "ae783554-7dae-45d2-adcd-d3ee2e8a29af")
+		)
+		(instances
+			(project "HapticGPS"
+				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/a0957f3f-851e-4cb9-882e-1a60d2c72d50"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -2919,6 +2925,15 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 228.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88126968-1edf-4de4-acc5-c7724fccda6b")
 		)
@@ -3134,15 +3149,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 160.02 143.51 0)
+		(at 139.7 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a7ad0206-cc86-4eeb-8ae8-1ebed00e2537")
-		(property "Reference" "C4"
-			(at 163.83 142.2399 0)
+		(uuid "af162f69-a5a4-4737-93c9-142e1594f9bd")
+		(property "Reference" "C26"
+			(at 143.51 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +3166,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 163.83 144.7799 0)
+			(at 143.51 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,8 +3174,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 160.9852 147.32 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 140.6652 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,8 +3183,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 160.02 143.51 0)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 139.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,8 +3192,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X7R 0603"
-			(at 160.02 143.51 0)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
+			(at 139.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,8 +3201,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 160.02 143.51 0)
+		(property "Manufacturer" "Murata Electronics"
+			(at 139.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,8 +3210,8 @@
 				(hide yes)
 			)
 		)
-		(property "Number Part" "C0603C104K3RACTU"
-			(at 160.02 143.51 0)
+		(property "Number Part" "GCM155R71H104KE02J"
+			(at 139.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +3220,7 @@
 			)
 		)
 		(property "Provider" "Digikey"
-			(at 160.02 143.51 0)
+			(at 139.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +3229,7 @@
 			)
 		)
 		(property "Revisado" "REV"
-			(at 165.862 147.32 0)
+			(at 145.542 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3237,16 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 160.02 143.51 0)
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 139.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,15 +3255,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b34c311d-1af8-4a82-982f-63d4906edb50")
+			(uuid "6f625182-8bbf-4bb7-97c8-96a9b0fb5679")
 		)
 		(pin "1"
-			(uuid "163af33d-b178-4183-94d2-1d8926b9a93a")
+			(uuid "9e69e40a-cf71-4eb4-9fe1-7af9b0cd5407")
 		)
 		(instances
 			(project "HapticGPS"
 				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/a0957f3f-851e-4cb9-882e-1a60d2c72d50"
-					(reference "C4")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -3409,6 +3433,15 @@
 				(hide yes)
 			)
 		)
+		(property "STANDARD" ""
+			(at 185.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "510e3034-1e33-4071-97d3-bbdbd2bba904")
 		)
@@ -3514,6 +3547,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 67.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 67.31 95.25 0)
 			(effects
 				(font
@@ -3634,6 +3676,15 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "96d1e42c-50ed-43eb-b47a-86067464b09c")
 		)
@@ -3747,6 +3798,15 @@
 				(hide yes)
 			)
 		)
+		(property "STANDARD" ""
+			(at 81.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9f53a54e-240a-46e4-a6e9-48ce5ed8608b")
 		)
@@ -3831,12 +3891,12 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 139.7 149.86 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e5dc7c9f-aa01-4bfd-afe6-58006978af8c")
 		(property "Reference" "#PWR032"
 			(at 139.7 156.21 0)
@@ -3899,9 +3959,9 @@
 		(at 273.05 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f3e43ac3-cf98-4f7a-9527-8774a978bd6b")
 		(property "Reference" "J2"
@@ -3949,6 +4009,59 @@
 				(hide yes)
 			)
 		)
+		(property "STANDARD" ""
+			(at 273.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 273.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Part" ""
+			(at 273.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" ""
+			(at 273.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revisado" ""
+			(at 273.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 273.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ba9660f-1c45-4026-8b72-c525bfe22109")
 		)
@@ -3959,117 +4072,6 @@
 			(project ""
 				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/a0957f3f-851e-4cb9-882e-1a60d2c72d50"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fffea580-1be8-4c46-b618-f679df3c8213")
-		(property "Reference" "R7"
-			(at 58.42 82.804 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1"
-			(at 58.42 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 58.42 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
-			(at 58.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 1 OHM 1% 1/2W 0805"
-			(at 58.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 58.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Number Part" "ERJ-6DQF1R0V"
-			(at 58.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Provider" "Digikey"
-			(at 58.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revisado" "REV"
-			(at 58.166 87.376 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 58.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "be3c0873-c3b1-4015-937f-695612873cec")
-		)
-		(pin "1"
-			(uuid "54c881da-b629-48a9-a613-9892c33d3787")
-		)
-		(instances
-			(project ""
-				(path "/429dbf39-a1a7-452e-94e3-b1241e04beaa/a0957f3f-851e-4cb9-882e-1a60d2c72d50"
-					(reference "R7")
 					(unit 1)
 				)
 			)
